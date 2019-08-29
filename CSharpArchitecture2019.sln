@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoApp2019.Core.Entity", "VideoApp2019.Core.Entity\VideoApp2019.Core.Entity.csproj", "{C0972E73-0BD6-4D2C-A011-397F376D33F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoApp2019.Core", "VideoApp2019.Core\VideoApp2019.Core.csproj", "{C57E3C4A-75AA-4077-9BEA-01BE0EF00E1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{149A60B2-7305-4857-996C-0CBACE3E5DFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{86A10A8E-3F4A-47C6-94ED-1846CC55F98E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{4E5B3D52-BAE2-4C3D-80FF-0EB4DDD9949C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoApp2019.Infrastructure.Data", "VideoApp2019.Infrastructure.Data\VideoApp2019.Infrastructure.Data.csproj", "{E6200701-629F-4317-BD49-C4615EBB45C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoApp2019.Console2019", "VideoApp2019.Console2019\VideoApp2019.Console2019.csproj", "{1FCF1F40-5086-4C7D-9140-D4DF33E5C7F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0972E73-0BD6-4D2C-A011-397F376D33F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0972E73-0BD6-4D2C-A011-397F376D33F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0972E73-0BD6-4D2C-A011-397F376D33F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0972E73-0BD6-4D2C-A011-397F376D33F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C57E3C4A-75AA-4077-9BEA-01BE0EF00E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57E3C4A-75AA-4077-9BEA-01BE0EF00E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57E3C4A-75AA-4077-9BEA-01BE0EF00E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57E3C4A-75AA-4077-9BEA-01BE0EF00E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6200701-629F-4317-BD49-C4615EBB45C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6200701-629F-4317-BD49-C4615EBB45C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6200701-629F-4317-BD49-C4615EBB45C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6200701-629F-4317-BD49-C4615EBB45C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCF1F40-5086-4C7D-9140-D4DF33E5C7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCF1F40-5086-4C7D-9140-D4DF33E5C7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCF1F40-5086-4C7D-9140-D4DF33E5C7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCF1F40-5086-4C7D-9140-D4DF33E5C7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0972E73-0BD6-4D2C-A011-397F376D33F8} = {149A60B2-7305-4857-996C-0CBACE3E5DFB}
+		{C57E3C4A-75AA-4077-9BEA-01BE0EF00E1F} = {149A60B2-7305-4857-996C-0CBACE3E5DFB}
+		{E6200701-629F-4317-BD49-C4615EBB45C8} = {86A10A8E-3F4A-47C6-94ED-1846CC55F98E}
+		{1FCF1F40-5086-4C7D-9140-D4DF33E5C7F8} = {4E5B3D52-BAE2-4C3D-80FF-0EB4DDD9949C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE697265-C791-4741-882D-6A693F3B38D2}
+	EndGlobalSection
+EndGlobal
